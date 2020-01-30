@@ -1,4 +1,58 @@
 body{
     background-color: blanchedalmond;
     text-align: center;
+    background-image: url(../img/burger-4026165_1280.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 200px;
+}
+h1{
+    text-align: center;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.container{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.eaten, .served{
+    /* float: right; */
+    width: 250px;
+    background-image: url(../img/big-hamburger.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.logo{
+    width: 100px;    
+}
+h2{
+    margin: 0;
+}
+
+
+@media (max-width: 450px){
+    body{
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+        margin-left: 22%;
+        margin-right: 22%;
+        
+    }
+}
+@media (max-width: 325px){
+    .container{
+        margin-left: 8%;
+    }
 }
