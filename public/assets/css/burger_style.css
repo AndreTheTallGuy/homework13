@@ -37,7 +37,6 @@ li {
 h2 {
   margin: 0;
 }
-
 @media (max-width: 450px) {
   body {
     text-align: center;
